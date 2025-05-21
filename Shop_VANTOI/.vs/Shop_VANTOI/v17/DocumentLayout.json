@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{748AA982-AB00-464D-BFEA-EE5DA312DBF7}|src\\solution items\\chuyennganh.Application\\chuyennganh.Application.csproj|d:\\final_kltn_2025\\backend\\.net_c#\\shop_vantoi\\src\\solution items\\chuyennganh.application\\app\\categoryapp\\query\\handlers\\getallcategoryrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{75561C06-D75E-4FF5-9DC7-E88145DA32C5}|src\\solution items\\chuyennganh.Api\\chuyennganh.Api.csproj|d:\\final_kltn_2025\\backend\\.net_c#\\shop_vantoi\\src\\solution items\\chuyennganh.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{75561C06-D75E-4FF5-9DC7-E88145DA32C5}|src\\solution items\\chuyennganh.Api\\chuyennganh.Api.csproj|solutionrelative:src\\solution items\\chuyennganh.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{748AA982-AB00-464D-BFEA-EE5DA312DBF7}|src\\solution items\\chuyennganh.Application\\chuyennganh.Application.csproj|D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.application\\app\\categoryapp\\query\\handlers\\getallcategoryrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{748AA982-AB00-464D-BFEA-EE5DA312DBF7}|src\\solution items\\chuyennganh.Application\\chuyennganh.Application.csproj|solutionrelative:src\\solution items\\chuyennganh.application\\app\\categoryapp\\query\\handlers\\getallcategoryrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -141,10 +145,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8D964032-5C78-44D3-B359-F0F328770979}|src\\solution items\\chuyennganh.Infrasture\\chuyennganh.Infrasture.csproj|D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.infrasture\\context\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D964032-5C78-44D3-B359-F0F328770979}|src\\solution items\\chuyennganh.Infrasture\\chuyennganh.Infrasture.csproj|solutionrelative:src\\solution items\\chuyennganh.infrasture\\context\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75561C06-D75E-4FF5-9DC7-E88145DA32C5}|src\\solution items\\chuyennganh.Api\\chuyennganh.Api.csproj|D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{75561C06-D75E-4FF5-9DC7-E88145DA32C5}|src\\solution items\\chuyennganh.Api\\chuyennganh.Api.csproj|solutionrelative:src\\solution items\\chuyennganh.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75561C06-D75E-4FF5-9DC7-E88145DA32C5}|src\\solution items\\chuyennganh.Api\\chuyennganh.Api.csproj|D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -1186,7 +1186,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -1202,7 +1202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ChangeStatusOrderRequestHandler.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Application\\App\\OrderApp\\Handler\\ChangeStatusOrderRequestHandler.cs",
               "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Application\\App\\OrderApp\\Handler\\ChangeStatusOrderRequestHandler.cs",
@@ -1214,7 +1214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ChangeStatusOrderRequest.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Application\\App\\OrderApp\\Command\\ChangeStatusOrderRequest.cs",
               "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Application\\App\\OrderApp\\Command\\ChangeStatusOrderRequest.cs",
@@ -1226,7 +1226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "OrderStatus.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Domain\\Enumerations\\OrderStatus.cs",
               "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Domain\\Enumerations\\OrderStatus.cs",
@@ -1238,7 +1238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GetAllCategoryRequestHandler.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Application\\App\\CategoryApp\\Query\\Handlers\\GetAllCategoryRequestHandler.cs",
               "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Application\\App\\CategoryApp\\Query\\Handlers\\GetAllCategoryRequestHandler.cs",
@@ -1246,12 +1246,24 @@
               "RelativeToolTip": "src\\solution items\\chuyennganh.Application\\App\\CategoryApp\\Query\\Handlers\\GetAllCategoryRequestHandler.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAAADAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T11:36:37.671Z",
+              "WhenOpened": "2024-11-19T11:36:37.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Api\\appsettings.json",
+              "ToolTip": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Api\\appsettings.json",
+              "RelativeToolTip": "src\\solution items\\chuyennganh.Api\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-17T14:39:35.071Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CreateProductRVRequestHandler.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Application\\App\\ProdcutReview\\Handler\\CreateProductRVRequestHandler.cs",
               "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Application\\App\\ProdcutReview\\Handler\\CreateProductRVRequestHandler.cs",
@@ -1263,7 +1275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "DeleteProductHandler.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Application\\App\\ProductApp\\Handler\\DeleteProductHandler.cs",
               "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Application\\App\\ProductApp\\Handler\\DeleteProductHandler.cs",
@@ -1275,7 +1287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "DeleteCategoryRequestHandler.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Application\\App\\CategoryApp\\Handler\\DeleteCategoryRequestHandler.cs",
               "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Application\\App\\CategoryApp\\Handler\\DeleteCategoryRequestHandler.cs",
@@ -1287,7 +1299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Infrasture\\Context\\AppDbContext.cs",
               "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Infrasture\\Context\\AppDbContext.cs",
@@ -1299,7 +1311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CreateReviewRequest.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Application\\App\\ProdcutReview\\Command\\CreateReviewRequest.cs",
               "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Application\\App\\ProdcutReview\\Command\\CreateReviewRequest.cs",
@@ -1311,7 +1323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "IGenericReponsitory.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Application\\Repositories\\IGenericReponsitory.cs",
               "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Application\\Repositories\\IGenericReponsitory.cs",
@@ -1323,7 +1335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Order.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Domain\\Entities\\Order.cs",
               "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Domain\\Entities\\Order.cs",
@@ -1335,7 +1347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Infrasture\\Repositories\\GenericRepository.cs",
               "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Infrasture\\Repositories\\GenericRepository.cs",
@@ -1347,7 +1359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ValidationExtensions.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Domain\\DependencyInjection\\Extensions\\ValidationExtensions.cs",
               "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Domain\\DependencyInjection\\Extensions\\ValidationExtensions.cs",
@@ -1359,7 +1371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "StringExtensions.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Domain\\DependencyInjection\\Extensions\\StringExtensions.cs",
               "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Domain\\DependencyInjection\\Extensions\\StringExtensions.cs",
@@ -1371,7 +1383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ServiceCollectionExtensions.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Domain\\DependencyInjection\\Extensions\\ServiceCollectionExtensions.cs",
               "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Domain\\DependencyInjection\\Extensions\\ServiceCollectionExtensions.cs",
@@ -1383,7 +1395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ResultExtensions.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Domain\\DependencyInjection\\Extensions\\ResultExtensions.cs",
               "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Domain\\DependencyInjection\\Extensions\\ResultExtensions.cs",
@@ -1395,7 +1407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ExceptionExtensions.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Domain\\DependencyInjection\\Extensions\\ExceptionExtensions.cs",
               "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Domain\\DependencyInjection\\Extensions\\ExceptionExtensions.cs",
@@ -1407,7 +1419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "EntityExtensions.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Domain\\DependencyInjection\\Extensions\\EntityExtensions.cs",
               "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Domain\\DependencyInjection\\Extensions\\EntityExtensions.cs",
@@ -1419,7 +1431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ProductRespose.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Domain\\Response\\ProductsRP\\ProductRespose.cs",
               "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Domain\\Response\\ProductsRP\\ProductRespose.cs",
@@ -1431,7 +1443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "ServiceResponse.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Domain\\Response\\ServiceResponse.cs",
               "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Domain\\Response\\ServiceResponse.cs",
@@ -1443,7 +1455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ApplicationMappingProfile.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Application\\Mapping\\ApplicationMappingProfile.cs",
               "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Application\\Mapping\\ApplicationMappingProfile.cs",
@@ -1455,7 +1467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Application\\Extensions\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Application\\Extensions\\DependencyInjection.cs",
@@ -1467,7 +1479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Infrasture\\Extensions\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Infrasture\\Extensions\\DependencyInjection.cs",
@@ -1479,7 +1491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "IProductReviewRepository.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Application\\Repositories\\IProductReviewRepository.cs",
               "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Application\\Repositories\\IProductReviewRepository.cs",
@@ -1491,7 +1503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "CreateOrderRequest.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Application\\App\\OrderApp\\Command\\CreateOrderRequest.cs",
               "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Application\\App\\OrderApp\\Command\\CreateOrderRequest.cs",
@@ -1503,7 +1515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "CreateOrderRequestHandler.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Application\\App\\OrderApp\\Handler\\CreateOrderRequestHandler.cs",
               "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Application\\App\\OrderApp\\Handler\\CreateOrderRequestHandler.cs",
@@ -1515,7 +1527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "ChangeStatusOrderRequestValidator.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Application\\App\\OrderApp\\Validators\\ChangeStatusOrderRequestValidator.cs",
               "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Application\\App\\OrderApp\\Validators\\ChangeStatusOrderRequestValidator.cs",
@@ -1527,7 +1539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Infrasture\\Repositories\\ProductRepo\\ProductRepository.cs",
               "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Infrasture\\Repositories\\ProductRepo\\ProductRepository.cs",
@@ -1539,7 +1551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "UpdateProductHandler.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Application\\App\\ProductApp\\Handler\\UpdateProductHandler.cs",
               "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Application\\App\\ProductApp\\Handler\\UpdateProductHandler.cs",
@@ -1551,7 +1563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Domain\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Domain\\Entities\\Product.cs",
@@ -1563,7 +1575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "CreateProductHandler.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Application\\App\\ProductApp\\Handler\\CreateProductHandler.cs",
               "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Application\\App\\ProductApp\\Handler\\CreateProductHandler.cs",
@@ -1575,7 +1587,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Application\\Repositories\\ProductRepo\\IProductRepository.cs",
               "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Application\\Repositories\\ProductRepo\\IProductRepository.cs",
@@ -1587,7 +1599,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "CreateCategoryRequestHandler.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Application\\App\\CategoryApp\\Handler\\CreateCategoryRequestHandler.cs",
               "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Application\\App\\CategoryApp\\Handler\\CreateCategoryRequestHandler.cs",
@@ -1599,7 +1611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "RegisterRequestHandler.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Application\\App\\CustomersApp\\Customers\\Handler\\RegisterRequestHandler.cs",
               "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Application\\App\\CustomersApp\\Customers\\Handler\\RegisterRequestHandler.cs",
@@ -1611,7 +1623,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "EmailSettings.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Infrasture\\Context\\EmailSettings.cs",
               "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Infrasture\\Context\\EmailSettings.cs",
@@ -1620,18 +1632,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T07:17:59.474Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\solution items\\chuyennganh.Api\\appsettings.json",
-              "ToolTip": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution items\\chuyennganh.Api\\appsettings.json",
-              "RelativeToolTip": "src\\solution items\\chuyennganh.Api\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-17T14:39:35.071Z"
             },
             {
               "$type": "Document",
@@ -4276,8 +4276,7 @@
               "RelativeToolTip": "src\\solution items\\chuyennganh.Application\\App\\CustomersApp\\Customers\\Handler\\ResendOTPRequestHandler.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAEwAsAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T07:27:17.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T07:27:17.764Z"
             },
             {
               "$type": "Document",
