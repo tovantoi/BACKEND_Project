@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\chuyennganh.Api.props" />
+</Project>

@@ -1,0 +1,13 @@
+D:\Final_KLTN_2025\BackEnd\.Net_C#\Shop_VANTOI\src\solution items\chuyennganh.Domain\bin\Debug\net8.0\chuyennganh.Domain.deps.json
+D:\Final_KLTN_2025\BackEnd\.Net_C#\Shop_VANTOI\src\solution items\chuyennganh.Domain\bin\Debug\net8.0\chuyennganh.Domain.dll
+D:\Final_KLTN_2025\BackEnd\.Net_C#\Shop_VANTOI\src\solution items\chuyennganh.Domain\bin\Debug\net8.0\chuyennganh.Domain.pdb
+D:\Final_KLTN_2025\BackEnd\.Net_C#\Shop_VANTOI\src\solution items\chuyennganh.Domain\obj\Debug\net8.0\chuyennganh.Domain.csproj.AssemblyReference.cache
+D:\Final_KLTN_2025\BackEnd\.Net_C#\Shop_VANTOI\src\solution items\chuyennganh.Domain\obj\Debug\net8.0\chuyennganh.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Final_KLTN_2025\BackEnd\.Net_C#\Shop_VANTOI\src\solution items\chuyennganh.Domain\obj\Debug\net8.0\chuyennganh.Domain.AssemblyInfoInputs.cache
+D:\Final_KLTN_2025\BackEnd\.Net_C#\Shop_VANTOI\src\solution items\chuyennganh.Domain\obj\Debug\net8.0\chuyennganh.Domain.AssemblyInfo.cs
+D:\Final_KLTN_2025\BackEnd\.Net_C#\Shop_VANTOI\src\solution items\chuyennganh.Domain\obj\Debug\net8.0\chuyennganh.Domain.csproj.CoreCompileInputs.cache
+D:\Final_KLTN_2025\BackEnd\.Net_C#\Shop_VANTOI\src\solution items\chuyennganh.Domain\obj\Debug\net8.0\chuyennganh.Domain.sourcelink.json
+D:\Final_KLTN_2025\BackEnd\.Net_C#\Shop_VANTOI\src\solution items\chuyennganh.Domain\obj\Debug\net8.0\chuyennganh.Domain.dll
+D:\Final_KLTN_2025\BackEnd\.Net_C#\Shop_VANTOI\src\solution items\chuyennganh.Domain\obj\Debug\net8.0\refint\chuyennganh.Domain.dll
+D:\Final_KLTN_2025\BackEnd\.Net_C#\Shop_VANTOI\src\solution items\chuyennganh.Domain\obj\Debug\net8.0\chuyennganh.Domain.pdb
+D:\Final_KLTN_2025\BackEnd\.Net_C#\Shop_VANTOI\src\solution items\chuyennganh.Domain\obj\Debug\net8.0\ref\chuyennganh.Domain.dll
