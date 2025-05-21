@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: chuyennganh-api
+    runtime: docker
+    rootDir: src/solution items/chuyennganh.Api
+    buildCommand: dotnet publish -c Release -o out
+    startCommand: dotnet out/chuyennganh.Api.dll
+    envVars:
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
