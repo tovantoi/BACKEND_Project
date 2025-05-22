@@ -1,0 +1,8 @@
+﻿services:
+  - type: web
+    name: dotnet-docker-app
+    env: docker
+    repo: https://github.com/tovantoi/BACKEND_Project.git
+    branch: main
+    dockerfilePath: ./Shop_VANTOI/src/solution_items/chuyennganh.Api/Dockerfile
+    autoDeploy: true
