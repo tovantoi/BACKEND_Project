@@ -4,5 +4,5 @@
     env: docker
     repo: https://github.com/tovantoi/BACKEND_Project.git
     branch: main
-    dockerfilePath: ./Dockerfile
+    dockerfilePath: ./Shop_VANTOI/src/solution items/chuyennganh.Api/Dockerfile
     autoDeploy: true
