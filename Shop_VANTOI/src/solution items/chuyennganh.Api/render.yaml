@@ -1,0 +1,8 @@
+﻿services:
+  - type: web
+    name: dotnet-docker-app
+    env: docker
+    repo: https://github.com/<your-username>/<your-repo>
+    branch: main
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
