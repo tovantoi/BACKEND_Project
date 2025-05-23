@@ -83,11 +83,11 @@ builder.Services.AddApplicationServices();
 builder.Services.AddAuthorization();
 builder.Services.AddHttpClient();
 builder.Services.AddHttpContextAccessor();
-var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
-builder.WebHost.ConfigureKestrel(serverOptions =>
-{
-    serverOptions.ListenAnyIP(int.Parse(port));
-});
+//var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
+//builder.WebHost.ConfigureKestrel(serverOptions =>
+//{
+//    serverOptions.ListenAnyIP(int.Parse(port));
+//});
 
 var app = builder.Build();
 app.UseHttpsRedirection();

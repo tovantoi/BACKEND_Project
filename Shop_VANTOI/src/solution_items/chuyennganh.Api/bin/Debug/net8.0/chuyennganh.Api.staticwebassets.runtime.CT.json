@@ -1,0 +1,443 @@
+{
+  "ContentRoots": [
+    "/app/wwwroot/"
+  ],
+  "Root": {
+    "Children": {
+      "assets": {
+        "Children": {
+          "images": {
+            "Children": {
+              "blog": {
+                "Children": {
+                  "blog-11.png": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/blog/blog-11.png"
+                    },
+                    "Patterns": null
+                  },
+                  "blog-12.png": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/blog/blog-12.png"
+                    },
+                    "Patterns": null
+                  },
+                  "blog-13.png": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/blog/blog-13.png"
+                    },
+                    "Patterns": null
+                  },
+                  "blog-14.jpeg": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/blog/blog-14.jpeg"
+                    },
+                    "Patterns": null
+                  },
+                  "blog-15.jpeg": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/blog/blog-15.jpeg"
+                    },
+                    "Patterns": null
+                  },
+                  "blog-7.jpeg": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/blog/blog-7.jpeg"
+                    },
+                    "Patterns": null
+                  },
+                  "blog-8.jpeg": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/blog/blog-8.jpeg"
+                    },
+                    "Patterns": null
+                  }
+                },
+                "Asset": null,
+                "Patterns": null
+              },
+              "category": {
+                "Children": {
+                  "category-41.png": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/category/category-41.png"
+                    },
+                    "Patterns": null
+                  },
+                  "category-42.jpeg": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/category/category-42.jpeg"
+                    },
+                    "Patterns": null
+                  },
+                  "img-category-.jpeg": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/category/img-category-.jpeg"
+                    },
+                    "Patterns": null
+                  },
+                  "img-category-.mov": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/category/img-category-.mov"
+                    },
+                    "Patterns": null
+                  },
+                  "img-category-.png": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/category/img-category-.png"
+                    },
+                    "Patterns": null
+                  },
+                  "img-category-.webp": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/category/img-category-.webp"
+                    },
+                    "Patterns": null
+                  },
+                  "img-category-26.webp": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/category/img-category-26.webp"
+                    },
+                    "Patterns": null
+                  },
+                  "img-category-27.jpeg": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/category/img-category-27.jpeg"
+                    },
+                    "Patterns": null
+                  }
+                },
+                "Asset": null,
+                "Patterns": null
+              },
+              "customer": {
+                "Children": {
+                  "customer-26.jpeg": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/customer/customer-26.jpeg"
+                    },
+                    "Patterns": null
+                  }
+                },
+                "Asset": null,
+                "Patterns": null
+              },
+              "custommer": {
+                "Children": {
+                  "img-customer-26.jpeg": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/custommer/img-customer-26.jpeg"
+                    },
+                    "Patterns": null
+                  },
+                  "img-customer-26.png": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/custommer/img-customer-26.png"
+                    },
+                    "Patterns": null
+                  }
+                },
+                "Asset": null,
+                "Patterns": null
+              },
+              "product": {
+                "Children": {
+                  "img-.jpeg": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/product/img-.jpeg"
+                    },
+                    "Patterns": null
+                  },
+                  "img-0.jpeg": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/product/img-0.jpeg"
+                    },
+                    "Patterns": null
+                  },
+                  "img-0.mov": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/product/img-0.mov"
+                    },
+                    "Patterns": null
+                  },
+                  "img-12.jpeg": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/product/img-12.jpeg"
+                    },
+                    "Patterns": null
+                  },
+                  "img-2056.jpeg": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/product/img-2056.jpeg"
+                    },
+                    "Patterns": null
+                  },
+                  "product-.jpeg": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/product/product-.jpeg"
+                    },
+                    "Patterns": null
+                  },
+                  "product-.png": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/product/product-.png"
+                    },
+                    "Patterns": null
+                  },
+                  "product-0.jpeg": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/product/product-0.jpeg"
+                    },
+                    "Patterns": null
+                  },
+                  "product-2079.jpeg": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/product/product-2079.jpeg"
+                    },
+                    "Patterns": null
+                  },
+                  "product-2080.jpeg": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/product/product-2080.jpeg"
+                    },
+                    "Patterns": null
+                  },
+                  "product-2081.jpeg": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/product/product-2081.jpeg"
+                    },
+                    "Patterns": null
+                  },
+                  "product-2082.jpeg": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/product/product-2082.jpeg"
+                    },
+                    "Patterns": null
+                  },
+                  "product-2083.jpeg": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/product/product-2083.jpeg"
+                    },
+                    "Patterns": null
+                  },
+                  "product-2083.png": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/product/product-2083.png"
+                    },
+                    "Patterns": null
+                  },
+                  "product-2084.png": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/product/product-2084.png"
+                    },
+                    "Patterns": null
+                  },
+                  "product-2085.png": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/product/product-2085.png"
+                    },
+                    "Patterns": null
+                  },
+                  "product-2086.png": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/product/product-2086.png"
+                    },
+                    "Patterns": null
+                  },
+                  "product-2087.png": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/product/product-2087.png"
+                    },
+                    "Patterns": null
+                  },
+                  "product-2088.webp": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/product/product-2088.webp"
+                    },
+                    "Patterns": null
+                  },
+                  "product-2089.webp": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/product/product-2089.webp"
+                    },
+                    "Patterns": null
+                  },
+                  "product-2097.jpeg": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/product/product-2097.jpeg"
+                    },
+                    "Patterns": null
+                  },
+                  "product-40.png": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/product/product-40.png"
+                    },
+                    "Patterns": null
+                  }
+                },
+                "Asset": null,
+                "Patterns": null
+              },
+              "review": {
+                "Children": {
+                  "review-15.png": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/review/review-15.png"
+                    },
+                    "Patterns": null
+                  },
+                  "review-17.jpeg": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/images/review/review-17.jpeg"
+                    },
+                    "Patterns": null
+                  }
+                },
+                "Asset": null,
+                "Patterns": null
+              }
+            },
+            "Asset": null,
+            "Patterns": null
+          },
+          "videos": {
+            "Children": {
+              "blog": {
+                "Children": {
+                  "blog-8.mp4": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/videos/blog/blog-8.mp4"
+                    },
+                    "Patterns": null
+                  }
+                },
+                "Asset": null,
+                "Patterns": null
+              },
+              "review": {
+                "Children": {
+                  "review-15.mp4": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/videos/review/review-15.mp4"
+                    },
+                    "Patterns": null
+                  },
+                  "review-18.mp4": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "assets/videos/review/review-18.mp4"
+                    },
+                    "Patterns": null
+                  }
+                },
+                "Asset": null,
+                "Patterns": null
+              }
+            },
+            "Asset": null,
+            "Patterns": null
+          }
+        },
+        "Asset": null,
+        "Patterns": null
+      }
+    },
+    "Asset": null,
+    "Patterns": [
+      {
+        "ContentRootIndex": 0,
+        "Pattern": "**",
+        "Depth": 0
+      }
+    ]
+  }
+}
