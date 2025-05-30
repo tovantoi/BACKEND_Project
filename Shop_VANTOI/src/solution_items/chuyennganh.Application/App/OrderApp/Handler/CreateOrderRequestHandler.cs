@@ -1,7 +1,9 @@
 ﻿using AutoMapper;
 using chuyennganh.Application.App.OrderApp.Command;
 using chuyennganh.Application.App.OrderApp.Validators;
+using chuyennganh.Application.App.SendOrderEmail.Command;
 using chuyennganh.Application.Repositories.CouponRepo;
+using chuyennganh.Application.Repositories.CustomerRPRepo;
 using chuyennganh.Application.Repositories.OrderItemRepo;
 using chuyennganh.Application.Repositories.OrderRepo;
 using chuyennganh.Application.Repositories.ProductRepo;
@@ -21,14 +23,17 @@ namespace chuyennganh.Application.App.OrderApp.Handler
         private readonly ICouponRepository couponRepository;
         private readonly IProductRepository productRepository;
         private readonly IOrderItemRepository orderItemRepository;
-
-        public CreateOrderRequestHandler(IOrderRepository orderRepository, IMapper mapper, ICouponRepository couponRepository, IProductRepository productRepository, IOrderItemRepository orderItemRepository)
+        private readonly IMediator mediator;
+        private readonly ICustomerRepository customerRepository;
+        public CreateOrderRequestHandler(IOrderRepository orderRepository, IMapper mapper, ICouponRepository couponRepository, IProductRepository productRepository, IOrderItemRepository orderItemRepository, IMediator mediator, ICustomerRepository customerRepository)
         {
             this.orderRepository = orderRepository;
             this.mapper = mapper;
             this.couponRepository = couponRepository;
             this.productRepository = productRepository;
             this.orderItemRepository = orderItemRepository;
+            this.mediator = mediator;
+            this.customerRepository = customerRepository;
         }
 
         public async Task<ServiceResponse> Handle(CreateOrderRequest request, CancellationToken cancellationToken)
@@ -68,7 +73,7 @@ namespace chuyennganh.Application.App.OrderApp.Handler
                     {
                         var product = await productRepository.GetByIdAsync(item.ProductId!);
                         if (product is null) product.ThrowNotFound();
-
+                      
                         decimal price = product!.DiscountPrice.HasValue && product.DiscountPrice > 0 ? (decimal)product.DiscountPrice.Value : (decimal)(product.RegularPrice ?? 0);
                         var orderItem = new OrderItem
                         {
@@ -94,11 +99,27 @@ namespace chuyennganh.Application.App.OrderApp.Handler
                     }
 
                     order.TotalPrice = (decimal)orderTotalPrice;
+                    var customer = await customerRepository.GetByIdAsync(request.CustomerId);
+                    if (customer == null) throw new Exception("Không tìm thấy khách hàng.");
                     await orderRepository.UpdateAsync(order);
                     await orderRepository.SaveChangeAsync();
 
                     await transaction.CommitAsync(cancellationToken);
+                    await mediator.Send(new SendOrderEmailCommand
+                    {
+                        Email = customer.Email,
+                        CustomerName = $"{customer.LastName ?? ""} {customer.FirstName ?? ""}".Trim(),
+                        OrderCode = $"OD{order.Id:D6}", // hoặc $"ORDER-{order.Id}"
+                        TotalPrice = order.TotalPrice ?? 0,
+                        OrderItems = request.OrderItems.Select(x => new OrderItemDto
+                        {
+                            ProductName = productRepository.GetByIdAsync(x.ProductId).Result?.ProductName ?? "Sản phẩm",
+                            Quantity = x.Quantity ?? 0,
+                            Price = (x.Quantity ?? 0) * (decimal)(productRepository.GetByIdAsync(x.ProductId).Result?.DiscountPrice ?? 0)
+                        }).ToList()
+                    });
                     return ServiceResponse.Success("Tạo thành công", query: new { id = order.Id });
+
                 }
                 catch (Exception)
                 {

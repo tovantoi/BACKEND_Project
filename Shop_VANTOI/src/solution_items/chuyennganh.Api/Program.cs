@@ -147,4 +147,5 @@ app.MapProductReviewEndpoints();
 app.MapPaymentEndpoints();
 app.MapBlogEndpoints();
 app.MapThongKeEndpoints();
+app.MapSendOrderEmail();
 app.Run();

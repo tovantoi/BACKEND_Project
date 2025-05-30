@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2LBmFMbrpo01p3olZd4M9Chfi2jPp0R1oTb9Ql1wAPU=",
+  "Hash": "cHhvANhWBdpSY5VPfPr7WSwGAkmovulLBDvLje1gEcg=",
   "Source": "chuyennganh.Api",
   "BasePath": "_content/chuyennganh.Api",
   "Mode": "Default",
@@ -36,6 +36,25 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\blog\\blog-11.png"
     },
     {
+      "Identity": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\assets\\images\\blog\\blog-12.jpeg",
+      "SourceId": "chuyennganh.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\",
+      "BasePath": "_content/chuyennganh.Api",
+      "RelativePath": "assets/images/blog/blog-12.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\blog\\blog-12.jpeg"
+    },
+    {
       "Identity": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\assets\\images\\blog\\blog-12.png",
       "SourceId": "chuyennganh.Api",
       "SourceType": "Discovered",
@@ -53,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\blog\\blog-12.png"
+    },
+    {
+      "Identity": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\assets\\images\\blog\\blog-13.jpeg",
+      "SourceId": "chuyennganh.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\",
+      "BasePath": "_content/chuyennganh.Api",
+      "RelativePath": "assets/images/blog/blog-13.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\blog\\blog-13.jpeg"
     },
     {
       "Identity": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\assets\\images\\blog\\blog-13.png",
