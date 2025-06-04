@@ -37,6 +37,17 @@ namespace chuyennganh.Api.Controllers
             return TypedResults.BadRequest(result);
         }
 
+        [HttpPut("/change-status-order-user")]
+        public static async Task<IResult> UpdateOrderStatusUser([FromBody] ChangeStatusOrderUserRequest request, IMediator mediator, IMapper mapper)
+        {
+            var command = mapper.Map<ChangeStatusOrderUserRequest>(request);
+            var result = await mediator.Send(command);
+            if (result.IsSuccess)
+            {
+                return TypedResults.Ok(result);
+            }
+            return TypedResults.BadRequest(result);
+        }
         [HttpGet("/get-orders")]
         public static async Task<IResult> GetAllOrder(IMediator mediator)
         {

@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using chuyennganh.Application.App.Thong_Ke.Command;
+using chuyennganh.Application.App.Thong_Ke.Dto;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -41,16 +42,27 @@ namespace chuyennganh.Api.Controllers
             return TypedResults.Ok(result);
         }
 
-        [HttpGet("/get-revenue-day-week-month")] // Thống kê doanh thu theo ngày tuần tháng năm
-        public static async Task<IResult> GetRevenueDayWeekMonth(
-                                                     [FromQuery] string? mode,
-                                                     [FromQuery] DateTime? from,
-                                                     [FromQuery] DateTime? to,
-                                                     IMediator mediator)
+        [HttpGet("/get-revenue-current")] // Thống kê doanh thu hiện tại theo mode
+        public static async Task<IResult> GetRevenueCurrent(
+            [FromQuery] string mode,
+            IMediator mediator)
         {
             var request = new GetRevenueStatisticsRequest
             {
-                Mode = mode,
+                Mode = mode
+            };
+
+            var result = await mediator.Send(request);
+            return TypedResults.Ok(result);
+        }
+        [HttpGet("/get-revenue-range")] // Thống kê doanh thu theo khoảng thời gian
+        public static async Task<IResult> GetRevenueByRange(
+            [FromQuery] DateTime from,
+            [FromQuery] DateTime to,
+            IMediator mediator)
+        {
+            var request = new GetRevenueStatisticsByDateRangeRequest
+            {
                 From = from,
                 To = to
             };

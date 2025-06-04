@@ -10,7 +10,8 @@ namespace chuyennganh.Api.Endpoints
 
             category.MapGet("/get-top-product", ThongKeController.GetTopProduct);
             category.MapGet("/get-revenue-product-in-category", ThongKeController.GetRevenueCategory);
-            category.MapGet("/get-revenue-day-week-month", ThongKeController.GetRevenueDayWeekMonth);
+            category.MapGet("/get-revenue-day-week-month", ThongKeController.GetRevenueCurrent);
+            category.MapGet("/get-revenue-time", ThongKeController.GetRevenueByRange);
             category.MapGet("/get-sales-summary", ThongKeController.GetSalesSummary);
             return app;
         }

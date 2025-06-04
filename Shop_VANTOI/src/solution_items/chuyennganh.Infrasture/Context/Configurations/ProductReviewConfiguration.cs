@@ -16,6 +16,10 @@ namespace chuyennganh.Infrasture.Context.Configurations
             builder.Property(x => x.Rating).HasColumnName("Rating").HasMaxLength(int.MaxValue);
             builder.Property(x => x.Comment).HasColumnName("Comment").HasMaxLength(int.MaxValue);
             builder.Property(x => x.CreatedAt).HasColumnName("CreatedAt");
+            builder.HasOne(pr => pr.Customer)
+                   .WithMany()
+                   .HasForeignKey(pr => pr.UserId)
+                   .OnDelete(DeleteBehavior.Restrict);
 
         }
     }

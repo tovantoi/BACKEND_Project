@@ -13,6 +13,7 @@ namespace chuyennganh.Api.Endpoints
             customers.MapGet("/get-order-by-id", OrderController.GetOrderById);
             customers.MapGet("/get-order-by-customer-id", OrderController.GetOrderByCustomerId);
             customers.MapPut("/change-status-order", OrderController.UpdateOrder);
+            customers.MapPut("/change-status-order-user", OrderController.UpdateOrderStatusUser);
 
             return app;
         }

@@ -31,6 +31,7 @@ namespace chuyennganh.Infrasture.Context.Configurations
             builder.Property(x => x.IsActive).HasColumnName("IsActive");
 
             builder.HasMany(x => x.ProductCategories).WithOne().HasForeignKey(x => x.ProductId);
+            builder.HasMany(x => x.ProductImages).WithOne().HasForeignKey(x => x.Id);
         }
     }
 }

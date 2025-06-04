@@ -22,6 +22,7 @@ namespace chuyennganh.Application.Mapping
             #region Product
             CreateMap<Product, ProductDTO>().ReverseMap();
             CreateMap<CreateProductCommand, Product>();
+            CreateMap<CreateProductImageCommand, ProductImage>();
             CreateMap<CreateProductCommand, CreateProductValidator>().ReverseMap();
             CreateMap<Product, ServiceResponse>().ReverseMap();
             CreateMap<DeleteProductCommand, Product>().ReverseMap();

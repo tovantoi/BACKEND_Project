@@ -45,6 +45,26 @@
       "PackagePath": "staticwebassets\\assets\\images\\category\\category-42.jpeg"
     },
     {
+      "Id": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\assets\\images\\category\\category-44.png",
+      "PackagePath": "staticwebassets\\assets\\images\\category\\category-44.png"
+    },
+    {
+      "Id": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\assets\\images\\category\\category-45.png",
+      "PackagePath": "staticwebassets\\assets\\images\\category\\category-45.png"
+    },
+    {
+      "Id": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\assets\\images\\category\\category-46.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\category\\category-46.jpeg"
+    },
+    {
+      "Id": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\assets\\images\\category\\category-47.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\category\\category-47.jpeg"
+    },
+    {
+      "Id": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\assets\\images\\category\\category-48.png",
+      "PackagePath": "staticwebassets\\assets\\images\\category\\category-48.png"
+    },
+    {
       "Id": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\assets\\images\\category\\img-category-.jpeg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\img-category-.jpeg"
     },
@@ -71,6 +91,10 @@
     {
       "Id": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\assets\\images\\customer\\customer-26.jpeg",
       "PackagePath": "staticwebassets\\assets\\images\\customer\\customer-26.jpeg"
+    },
+    {
+      "Id": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\assets\\images\\customer\\customer-35.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\customer\\customer-35.jpeg"
     },
     {
       "Id": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\assets\\images\\custommer\\img-customer-26.jpeg",
@@ -165,6 +189,18 @@
       "PackagePath": "staticwebassets\\assets\\images\\product\\product-2097.jpeg"
     },
     {
+      "Id": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\assets\\images\\product\\product-2097_98614eb0-3627-41c6-a23e-0ce78cdff0ab.png",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-2097_98614eb0-3627-41c6-a23e-0ce78cdff0ab.png"
+    },
+    {
+      "Id": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\assets\\images\\product\\product-2097_c442a734-f211-4484-957b-9ec6a283f948.png",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-2097_c442a734-f211-4484-957b-9ec6a283f948.png"
+    },
+    {
+      "Id": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\assets\\images\\product\\product-2098.png",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-2098.png"
+    },
+    {
       "Id": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\assets\\images\\product\\product-40.png",
       "PackagePath": "staticwebassets\\assets\\images\\product\\product-40.png"
     },
@@ -175,6 +211,10 @@
     {
       "Id": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\assets\\images\\review\\review-17.jpeg",
       "PackagePath": "staticwebassets\\assets\\images\\review\\review-17.jpeg"
+    },
+    {
+      "Id": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\assets\\images\\review\\review-22.png",
+      "PackagePath": "staticwebassets\\assets\\images\\review\\review-22.png"
     },
     {
       "Id": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\assets\\videos\\blog\\blog-8.mp4",

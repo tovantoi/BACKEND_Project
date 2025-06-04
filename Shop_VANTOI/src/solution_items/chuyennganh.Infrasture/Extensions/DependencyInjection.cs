@@ -40,6 +40,7 @@ namespace chuyennganh.Infrastructure.Extensions
             services.AddScoped<ICustomerRepository, CustomerRepository>();
             services.AddScoped<ICustomerAddressRepository, CustomerAddressRepository>();
             services.AddScoped<IProductReviewRepository, ProductReviewRepository>();
+            services.AddScoped<IProductImageRepository, ProductImageRepository>();
             services.AddScoped<IPaymentTransactionRepository, PaymentTransactionRepository>();
             services.AddScoped<IFileService, FileService>();
             services.AddScoped<IPaymentService, PaymentService>();

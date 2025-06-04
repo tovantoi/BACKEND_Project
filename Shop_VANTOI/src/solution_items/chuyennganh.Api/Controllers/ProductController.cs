@@ -33,7 +33,16 @@ namespace chuyennganh.Api.Controllers
             }
             return TypedResults.BadRequest(results);
         }
-
+        [HttpPost("/create-product-image")]
+        public static async Task<IResult> PostImage([FromBody] CreateProductImageCommand request, IMediator mediator)
+        {
+            var results = await mediator.Send(request);
+            if (results.IsSuccess)
+            {
+                return TypedResults.Ok(results);
+            }
+            return TypedResults.BadRequest(results);
+        }
 
         [HttpPut("/update-product")]
         public static async Task<IResult> Put(int id, [FromBody] UpdateProductCommand request, IMediator mediator)
