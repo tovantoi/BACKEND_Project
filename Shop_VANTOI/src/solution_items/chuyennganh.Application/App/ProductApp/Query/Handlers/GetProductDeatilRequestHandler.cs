@@ -24,10 +24,21 @@ namespace chuyennganh.Application.App.ProductApp.Query.Handlers
         public async Task<Product> Handle(GetProductDeatilRequest request, CancellationToken cancellationToken)
         {
             var response = new ServiceResponse();
-            Product? product = await productRepository.GetByIdAsync(request.Id);
+            //Product? product = await productRepository.GetByIdAsync(request.Id);
+            var product = await productRepository.GetByIdWithImagesAsync(request.Id!.Value);
+
             if (product != null)
             {
                 product.ImagePath = string.IsNullOrEmpty(product.ImagePath) ? null : fileService.GetFullPathFileServer(product.ImagePath); // Adding EmpImage property
+            }
+            if (product.ProductImages != null)
+            {
+                foreach (var image in product.ProductImages)
+                {
+                    image.ImageUrl = string.IsNullOrEmpty(image.ImageUrl)
+                        ? null
+                        : fileService.GetFullPathFileServer(image.ImageUrl);
+                }
             }
             if (product is null) product.ThrowNotFound();
             return mapper.Map<Product>(product);

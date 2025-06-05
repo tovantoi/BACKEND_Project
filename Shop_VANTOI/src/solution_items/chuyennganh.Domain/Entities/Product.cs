@@ -28,5 +28,6 @@ namespace chuyennganh.Domain.Entities
         [JsonIgnore]
         public ICollection<ProductCategory>? ProductCategories { get; set; }
         public ICollection<ProductImage>? ProductImages { get; set; }
+        public ICollection<ProductSize>? ProductSizes { get; set; }
     }
 }

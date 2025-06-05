@@ -42,13 +42,15 @@ namespace chuyennganh.Application.App.ProductApp.Handler
                         return response;
                     }
                     var hasRestrictedOrders = await orderItemRepository
-                        .FindSingleAsync(oi => oi.ProductId == request.Id.Value &&
-                                               (oi.Order.Status == OrderStatus.Accepted || oi.Order.Status == OrderStatus.Shipping)); if (product != null)
+                            .FindSingleAsync(oi => oi.ProductId == request.Id.Value &&
+                            (oi.Order.Status == OrderStatus.Accepted || oi.Order.Status == OrderStatus.Shipping));
+                    if (hasRestrictedOrders != null)
                     {
                         response.IsSuccess = false;
                         response.Message = "Không thể xóa sản phẩm vì đang có đơn hàng sử dụng.";
                         return response;
                     }
+
                     await productRepository.DeleteAsync(request.Id.Value);
                     await productRepository.SaveChangeAsync();
 
