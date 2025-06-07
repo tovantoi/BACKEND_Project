@@ -57,7 +57,7 @@ namespace chuyennganh.Infrastructure.Extensions
             //  services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining<LoginCommandHandler>());
             services.Configure<EmailSettings>(configuration.GetSection("EmailSettings"));
             services.AddSingleton<EmailService>();
-            services.AddSingleton<VnPayService>();
+            services.AddSingleton<PayosService>();
             return services;
         }
     }

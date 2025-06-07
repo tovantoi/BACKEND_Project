@@ -54,7 +54,17 @@ public class CreateProductImageHandler : IRequestHandler<CreateProductImageComma
                     Suffix = $"{request.ProductId}_{Guid.NewGuid()}"
                 };
                 productImage.ImageUrl = await fileService.UploadFileAsync(uploadFile);
+                logger.LogInformation("Đang upload ảnh phụ cho ProductId = " + request.ProductId);
+
+                var url = await fileService.UploadFileAsync(uploadFile);
+                logger.LogInformation("File upload trả về URL = " + url);
+                productImage.ImageUrl = url;
             }
+
+
+
+
+            await productImageRepository.UpdateAsync(productImage);
             await productImageRepository.SaveChangeAsync(cancellationToken);
 
             await transaction.CommitAsync(cancellationToken);
