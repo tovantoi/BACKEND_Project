@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("chuyennganh.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6c0398f09c1caf6453bed10ea87e47651f0c3ef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3afa20f64a0300ce9debc1846cf14df6c58b493")]
 [assembly: System.Reflection.AssemblyProductAttribute("chuyennganh.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("chuyennganh.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

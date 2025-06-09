@@ -90,7 +90,7 @@ builder.Services.AddHttpContextAccessor();
 //});
 
 var app = builder.Build();
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 app.Use(async (context, next) =>
 {
     // Cho phép tất cả origin – bạn có thể giới hạn theo domain thật sau
