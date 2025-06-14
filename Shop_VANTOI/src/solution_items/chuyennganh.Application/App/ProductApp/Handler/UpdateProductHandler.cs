@@ -53,6 +53,7 @@ namespace chuyennganh.Application.App.ProductApp.Handler
                     product.Size = request.Size ?? product.Size;
                     product.Color = request.Color ?? product.Color;
                     product.Material = request.Material ?? product.Material;
+                    product.StockQuantity = request.StockQuantity ?? product.StockQuantity;
                     product.Gender = request.Gender ?? product.Gender;
                     product.Packaging = request.Packaging ?? product.Packaging;
                     product.Origin = request.Origin ?? product.Origin;

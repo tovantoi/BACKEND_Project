@@ -79,7 +79,15 @@ namespace chuyennganh.Application.App.OrderApp.Handler
                 {
                     var product = await productRepository.GetByIdAsync(item.ProductId!);
                     if (product is null) product.ThrowNotFound();
+                    if (product.StockQuantity.HasValue && product.StockQuantity.Value < item.Quantity)
+                    {
+                        throw new Exception($"Sản phẩm \"{product.ProductName}\" không đủ tồn kho.");
+                    }
 
+                    // Trừ tồn kho
+                    product.StockQuantity = (product.StockQuantity ?? 0) - item.Quantity ?? 0;
+
+                    await productRepository.UpdateAsync(product);
                     decimal price = product.DiscountPrice.HasValue && product.DiscountPrice > 0
                         ? (decimal)product.DiscountPrice.Value
                         : (decimal)(product.RegularPrice ?? 0);

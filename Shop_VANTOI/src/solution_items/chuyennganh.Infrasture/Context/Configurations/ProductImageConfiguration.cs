@@ -18,6 +18,7 @@ namespace chuyennganh.Infrasture.Context.Configurations
             builder.Property(x => x.ImageUrl).HasColumnName("ImageUrl");
 
             builder.Property(x => x.Color).HasColumnName("Color");
+            builder.Property(x => x.StockQuantity).HasColumnName("StockQuantity");
 
             builder.Property(x => x.SortOrder).HasColumnName("SortOrder");
 

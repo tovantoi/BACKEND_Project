@@ -20,6 +20,7 @@ namespace chuyennganh.Application.App.ProductApp.Command
         public string? Packaging { get; set; }
         public string? Origin { get; set; }
         public string? Manufacturer { get; set; }
+        public int? StockQuantity { get; set; }
         public string? ImageData { get; set; }
         public string? SeoTitle { get; set; }
         public string? SeoAlias { get; set; }

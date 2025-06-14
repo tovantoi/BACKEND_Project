@@ -10,9 +10,8 @@ namespace chuyennganh.Infrasture.Context.Configurations
         {
             builder.ToTable("Products");
             builder.HasKey(p => p.Id);
-            builder.Property(p => p.Id).HasColumnName("ProductId"); // Ánh xạ duy nhất
+            builder.Property(p => p.Id).HasColumnName("ProductId");
             builder.Property(x => x.ProductName).HasColumnName("ProductName");
-            //builder.HasIndex(x => x.ProductName);
             builder.Property(x => x.RegularPrice).HasColumnName("RegularPrice");
             builder.Property(x => x.DiscountPrice).HasColumnName("DiscountPrice");
             builder.Property(x => x.Description).HasColumnName("Description");
@@ -24,6 +23,7 @@ namespace chuyennganh.Infrasture.Context.Configurations
             builder.Property(x => x.Packaging).HasColumnName("Packaging");
             builder.Property(x => x.Origin).HasColumnName("Origin");
             builder.Property(x => x.Manufacturer).HasColumnName("Manufacturer");
+            builder.Property(x => x.StockQuantity).HasColumnName("StockQuantity");
             builder.Property(x => x.ImagePath).HasColumnName("ImagePath");
             builder.Property(x => x.SeoTitle).HasColumnName("SeoTitle");
             builder.Property(x => x.SeoAlias).HasColumnName("SeoAlias");

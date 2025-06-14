@@ -9,6 +9,7 @@ namespace chuyennganh.Api.Endpoints
         {
             var product = app.MapGroup("/minimal/api");
             product.MapPost("/create-product", ProductController.Post);
+            product.MapPost("/recommend-size", ProductController.RecommendSize);
             product.MapPost("/create-product-image", ProductController.PostImage);
             product.MapDelete("delete-product", ProductController.Delete);
             product.MapPut("/update-product", ProductController.Put);

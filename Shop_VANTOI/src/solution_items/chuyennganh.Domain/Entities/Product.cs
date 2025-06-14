@@ -19,6 +19,7 @@ namespace chuyennganh.Domain.Entities
         public string? Packaging { get; set; }
         public string? Origin { get; set; }
         public string? Manufacturer { get; set; }
+        public int? StockQuantity { get; set; }
         public string? ImagePath { get; set; }
         public string? SeoTitle { get; set; }
         public string? SeoAlias { get; set; }

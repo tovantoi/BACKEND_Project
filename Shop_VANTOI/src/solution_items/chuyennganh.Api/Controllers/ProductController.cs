@@ -1,5 +1,6 @@
 ﻿using chuyennganh.Application.App.ProductApp.Command;
 using chuyennganh.Application.App.ProductApp.Query.Queries;
+using chuyennganh.Application.Response;
 using MediatR;
 using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Mvc;
@@ -55,7 +56,16 @@ namespace chuyennganh.Api.Controllers
             }
             return TypedResults.BadRequest(results);
         }
+        [HttpPost("recommend-size")]
+        public static async Task<IResult> RecommendSize([FromBody] RecommendSizeRequest request, IMediator mediator)
+        {
+            ServiceResponse response = await mediator.Send(request);
 
+            if (response.IsSuccess)
+                return TypedResults.Ok(response);
+            else
+                return TypedResults.BadRequest(response);
+        }
         [HttpGet("/get-name-product")]
         public static async Task<IResult> GetByNameProduct(string productname, IMediator mediator)
         {

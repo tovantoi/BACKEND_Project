@@ -16,13 +16,14 @@ namespace chuyennganh.Application.Response
         public object? Query { get; set; }
 
         // Static method for successful response
-        public static ServiceResponse Success(string message, string? token = null, object? query = null)
+        public static ServiceResponse Success(string message, string? data = null, object? query = null)
         {
             return new ServiceResponse
             {
                 IsSuccess = true,
                 StatusCode = StatusCodes.Status200OK,
                 Message = message,
+                Data = data,
                 Query = query,
                 Errors = null
             };

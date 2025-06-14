@@ -60,10 +60,6 @@ public class CreateProductImageHandler : IRequestHandler<CreateProductImageComma
                 logger.LogInformation("File upload trả về URL = " + url);
                 productImage.ImageUrl = url;
             }
-
-
-
-
             await productImageRepository.UpdateAsync(productImage);
             await productImageRepository.SaveChangeAsync(cancellationToken);
 

@@ -12,6 +12,7 @@ namespace chuyennganh.Domain.Entities
         public string? ImageUrl { get; set; }
 
         public string? Color { get; set; }
+        public int? StockQuantity { get; set; }
         public int SortOrder { get; set; } = 0;
 
         [JsonIgnore]
