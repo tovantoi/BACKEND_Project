@@ -53,6 +53,51 @@ namespace chuyennganh.Api.Controllers
 
 
         /// ✅ IPN: PayOS gửi callback khi trạng thái đơn hàng thay đổi
+        //[HttpPost("ipn")]
+        //public async Task<IActionResult> IpnCallback()
+        //{
+        //    try
+        //    {
+        //        using var reader = new StreamReader(Request.Body);
+        //        var body = await reader.ReadToEndAsync();
+
+        //        var jsonDoc = JsonDocument.Parse(body);
+        //        var root = jsonDoc.RootElement;
+
+        //        var orderId = root.GetProperty("orderCode").GetInt32(); // ✅ Lấy đúng kiểu
+        //        var status = root.GetProperty("status").GetString();
+
+        //        _logger.LogInformation("📩 IPN PayOS nhận được: {0}", body);
+
+        //        OrderStatus? newStatus = status switch
+        //        {
+        //            "PAID" => OrderStatus.Accepted,
+        //            "CANCEL" => OrderStatus.Canceled,
+        //            _ => null
+        //        };
+
+        //        if (newStatus.HasValue)
+        //        {
+        //            var success = await _orderRepository.UpdateOrderStatusAsync(orderId, newStatus.Value);
+        //            if (success)
+        //            {
+        //                _logger.LogInformation($"✔️ Đã cập nhật đơn hàng #{orderId} sang trạng thái {newStatus}");
+        //                return Ok();
+        //            }
+        //            else
+        //            {
+        //                _logger.LogWarning($"⚠️ Không tìm thấy đơn hàng có ID = {orderId}");
+        //            }
+        //        }
+
+        //        return BadRequest("❌ Không thể xử lý: trạng thái không xác định.");
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        _logger.LogError(ex, "❌ Lỗi khi xử lý IPN từ PayOS");
+        //        return StatusCode(500, "Lỗi hệ thống khi xử lý IPN.");
+        //    }
+        //}
         [HttpPost("ipn")]
         public async Task<IActionResult> IpnCallback()
         {
@@ -61,41 +106,59 @@ namespace chuyennganh.Api.Controllers
                 using var reader = new StreamReader(Request.Body);
                 var body = await reader.ReadToEndAsync();
 
+                _logger.LogInformation("📩 IPN PayOS nhận được: {0}", body);
+
                 var jsonDoc = JsonDocument.Parse(body);
                 var root = jsonDoc.RootElement;
 
-                var orderId = root.GetProperty("orderCode").GetInt32(); // ✅ Lấy đúng kiểu
-                var status = root.GetProperty("status").GetString();
+                var orderCodeStr = root.GetProperty("orderCode").GetString();
 
-                _logger.LogInformation("📩 IPN PayOS nhận được: {0}", body);
+                if (!long.TryParse(orderCodeStr, out long orderCode))
+                {
+                    _logger.LogWarning("❌ orderCode không hợp lệ: {0}", orderCodeStr);
+                    return BadRequest("orderCode không hợp lệ.");
+                }
 
+                int orderId = (int)(orderCode / 1000);
+
+
+                var status = root.GetProperty("status").GetString()?.ToUpper();
+
+                if (string.IsNullOrEmpty(status))
+                {
+                    _logger.LogWarning("❌ Thiếu trường 'status' trong IPN.");
+                    return BadRequest("Thiếu trạng thái.");
+                }
+
+                // Ánh xạ trạng thái từ PayOS sang OrderStatus hệ thống
                 OrderStatus? newStatus = status switch
                 {
-                    "PAID" => OrderStatus.Successed,
+                    "PAID" => OrderStatus.Accepted,
                     "CANCEL" => OrderStatus.Canceled,
                     _ => null
                 };
 
-                if (newStatus.HasValue)
+                if (!newStatus.HasValue)
                 {
-                    var success = await _orderRepository.UpdateOrderStatusAsync(orderId, newStatus.Value);
-                    if (success)
-                    {
-                        _logger.LogInformation($"✔️ Đã cập nhật đơn hàng #{orderId} sang trạng thái {newStatus}");
-                        return Ok();
-                    }
-                    else
-                    {
-                        _logger.LogWarning($"⚠️ Không tìm thấy đơn hàng có ID = {orderId}");
-                    }
+                    _logger.LogWarning("❌ Trạng thái không xác định từ PayOS: {0}", status);
+                    return BadRequest("Trạng thái không hợp lệ.");
                 }
 
-                return BadRequest("❌ Không thể xử lý: trạng thái không xác định.");
+                // Cập nhật đơn hàng
+                var success = await _orderRepository.UpdateOrderStatusAsync(orderId, newStatus.Value);
+                if (!success)
+                {
+                    _logger.LogWarning($"⚠️ Không tìm thấy hoặc không cập nhật được đơn hàng có ID = {orderId}");
+                    return NotFound($"Không tìm thấy đơn hàng có ID = {orderId}");
+                }
+
+                _logger.LogInformation($"✔️ Đã cập nhật đơn hàng #{orderId} sang trạng thái {newStatus}");
+                return Ok();
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "❌ Lỗi khi xử lý IPN từ PayOS");
-                return StatusCode(500, "Lỗi hệ thống khi xử lý IPN.");
+                _logger.LogError(ex, "❌ Lỗi hệ thống khi xử lý IPN từ PayOS");
+                return StatusCode(500, "Lỗi hệ thống.");
             }
         }
 

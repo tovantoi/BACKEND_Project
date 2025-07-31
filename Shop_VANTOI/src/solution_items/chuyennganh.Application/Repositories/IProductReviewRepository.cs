@@ -4,5 +4,7 @@ namespace chuyennganh.Application.Repositories.ProductRepo
 {
     public interface IProductReviewRepository : IGenericReponsitory<ProductReview>
     {
+        Task<bool> HasUserReviewedProductAsync(int userId, int productId);
+
     }
 }

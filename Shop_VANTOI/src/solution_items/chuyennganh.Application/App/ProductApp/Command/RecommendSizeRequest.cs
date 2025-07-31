@@ -1,5 +1,4 @@
-﻿using chuyennganh.Application.App.DTOs;
-using chuyennganh.Application.Response;
+﻿using chuyennganh.Application.Response;
 using MediatR;
 
 namespace chuyennganh.Application.App.ProductApp.Command

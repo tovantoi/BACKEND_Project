@@ -7,6 +7,7 @@ using chuyennganh.Application.Response;
 using chuyennganh.Domain.Enumerations;
 using FluentValidation;
 using MediatR;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
 namespace chuyennganh.Application.App.ProductApp.Handler
@@ -42,8 +43,11 @@ namespace chuyennganh.Application.App.ProductApp.Handler
                         return response;
                     }
                     var hasRestrictedOrders = await orderItemRepository
-                            .FindSingleAsync(oi => oi.ProductId == request.Id.Value &&
-                            (oi.Order.Status == OrderStatus.Accepted || oi.Order.Status == OrderStatus.Shipping));
+                .FindSingleAsync(
+                    predicate: oi => oi.ProductId == request.Id.Value &&
+                                     (oi.Order.Status == OrderStatus.Accepted || oi.Order.Status == OrderStatus.Shipping || oi.Order.Status == OrderStatus.Pending),
+                    include: q => q.Include(oi => oi.Order)
+                );
                     if (hasRestrictedOrders != null)
                     {
                         response.IsSuccess = false;

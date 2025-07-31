@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
 using chuyennganh.Application.App.ProdcutReview.Command;
+using chuyennganh.Application.Repositories.OrderRepo;
+using chuyennganh.Application.Repositories.ProductRepo;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,6 +11,17 @@ namespace chuyennganh.Api.Controllers
     [ApiController]
     public class ProductReviewController : ControllerBase
     {
+        private readonly IProductReviewRepository productReviewRepository;
+        private readonly IOrderRepository orderRepository;
+
+        public ProductReviewController(
+            IProductReviewRepository productReviewRepository,
+            IOrderRepository orderRepository)
+        {
+            this.productReviewRepository = productReviewRepository;
+            this.orderRepository = orderRepository;
+        }
+
         [HttpPost("/create-product-review")]
         public static async Task<IResult> PostReview([FromBody] CreateReviewRequest request, IMediator mediator)
         {
@@ -55,6 +68,22 @@ namespace chuyennganh.Api.Controllers
             command.ProductId = id;
             var result = await mediator.Send(command);
             return TypedResults.Ok(result);
+        }
+
+        [HttpGet("check-product-review")]
+        public async Task<IActionResult> CheckReview(int userId, int productId)
+        {
+            try
+            {
+                var hasPurchased = await orderRepository.HasUserPurchasedProductAsync(userId, productId);
+                var hasReviewed = await productReviewRepository.HasUserReviewedProductAsync(userId, productId);
+
+                return Ok(new { canReview = hasPurchased && !hasReviewed });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "Đã xảy ra lỗi khi kiểm tra quyền đánh giá.", error = ex.Message });
+            }
         }
     }
 }

@@ -49,7 +49,17 @@ namespace chuyennganh.Application.App.ProdcutReview.Handler
                             Message = "Bạn cần mua sản phẩm trước khi đánh giá."
                         };
                     }
-
+                    // ✅ Kiểm tra đã đánh giá chưa
+                    var hasReviewed = await productReviewRepository.HasUserReviewedProductAsync(request.UserId, request.ProductId);
+                    if (hasReviewed)
+                    {
+                        return new ServiceResponse
+                        {
+                            IsSuccess = false,
+                            StatusCode = StatusCodes.Status400BadRequest,
+                            Message = "Bạn đã đánh giá sản phẩm này rồi."
+                        };
+                    }
                     await productReviewRepository.SaveChangeAsync();
                     if (request.ImageUrl is not null)
                     {
