@@ -1,4 +1,5 @@
 ﻿using chuyennganh.Application.App.ProductApp.Command;
+using chuyennganh.Application.App.ProductApp.Query.Handlers;
 using chuyennganh.Application.App.ProductApp.Query.Queries;
 using chuyennganh.Application.Response;
 using MediatR;
@@ -121,6 +122,14 @@ namespace chuyennganh.Api.Controllers
             command.PageNumber = pageNumber ?? 1;
             command.PageSize = pageSize ?? 6;
             var result = await mediator.Send(command);
+            return TypedResults.Ok(result);
+        }
+
+        [HttpGet("get-inventory")]
+        public static async Task<IResult> GetProductInventory(IMediator mediator)
+        {
+            var query = new GetProductInventoryQuery();
+            var result = await mediator.Send(query);
             return TypedResults.Ok(result);
         }
     }

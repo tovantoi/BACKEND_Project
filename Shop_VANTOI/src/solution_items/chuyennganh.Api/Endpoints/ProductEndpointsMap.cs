@@ -1,5 +1,6 @@
 ﻿using chuyennganh.Api.Controllers;
 using chuyennganh.Domain.Entities;
+using Microsoft.AspNetCore.Builder;
 
 namespace chuyennganh.Api.Endpoints
 {
@@ -19,6 +20,7 @@ namespace chuyennganh.Api.Endpoints
             product.MapGet("/get-products-admin", ProductController.GetAllProductAdmin);
             product.MapGet("/get-product-detail", ProductController.GetProductDetail);
             product.MapGet("/get-products-by-category", ProductController.GetAllProductByCategory);
+            product.MapGet("/get-inventory", ProductController.GetProductInventory);
             return app;
         }
     }

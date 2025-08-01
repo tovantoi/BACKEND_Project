@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kNXGFmC1WengkCE/nr3fZc9c6kCh7TfxE9P57FUCmVA=",
+  "Hash": "zH7owtyRbLyjvBG+DMIBK1yJt76rYkVIuNRnm3/kFDI=",
   "Source": "chuyennganh.Api",
   "BasePath": "_content/chuyennganh.Api",
   "Mode": "Default",
@@ -433,6 +433,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\category\\img-category-27.jpeg"
+    },
+    {
+      "Identity": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\assets\\images\\customer\\customer-22.jpeg",
+      "SourceId": "chuyennganh.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\",
+      "BasePath": "_content/chuyennganh.Api",
+      "RelativePath": "assets/images/customer/customer-22.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\customer\\customer-22.jpeg"
     },
     {
       "Identity": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\assets\\images\\customer\\customer-26.jpeg",
@@ -1421,6 +1440,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\product\\product-2112.png"
+    },
+    {
+      "Identity": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\assets\\images\\product\\product-2113.png",
+      "SourceId": "chuyennganh.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\",
+      "BasePath": "_content/chuyennganh.Api",
+      "RelativePath": "assets/images/product/product-2113.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\product\\product-2113.png"
     },
     {
       "Identity": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\assets\\images\\product\\product-40.png",
