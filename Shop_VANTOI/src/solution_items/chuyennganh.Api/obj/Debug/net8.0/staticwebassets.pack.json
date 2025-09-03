@@ -65,6 +65,10 @@
       "PackagePath": "staticwebassets\\assets\\images\\category\\category-48.png"
     },
     {
+      "Id": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\assets\\images\\category\\category-49.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\category\\category-49.webp"
+    },
+    {
       "Id": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\assets\\images\\category\\img-category-.jpeg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\img-category-.jpeg"
     },
@@ -303,6 +307,26 @@
     {
       "Id": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\assets\\images\\product\\product-2113.png",
       "PackagePath": "staticwebassets\\assets\\images\\product\\product-2113.png"
+    },
+    {
+      "Id": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\assets\\images\\product\\product-2114.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-2114.jpeg"
+    },
+    {
+      "Id": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\assets\\images\\product\\product-2115.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-2115.jpeg"
+    },
+    {
+      "Id": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\assets\\images\\product\\product-2115_154f9240-fc6b-4b44-b0cc-cc72352839cd.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-2115_154f9240-fc6b-4b44-b0cc-cc72352839cd.jpeg"
+    },
+    {
+      "Id": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\assets\\images\\product\\product-2115_9c8a1d49-04fb-4136-9a30-702349ef4d4e.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-2115_9c8a1d49-04fb-4136-9a30-702349ef4d4e.jpeg"
+    },
+    {
+      "Id": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\assets\\images\\product\\product-2116.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-2116.jpeg"
     },
     {
       "Id": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\wwwroot\\assets\\images\\product\\product-40.png",

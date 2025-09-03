@@ -81,7 +81,7 @@ namespace chuyennganh.Domain.Services
                 description,
                 returnUrl,
                 cancelUrl,
-                webhookUrl,
+                //webhookUrl,
                 buyerName,
                 buyerEmail,
                 buyerPhone,

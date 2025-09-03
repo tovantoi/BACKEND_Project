@@ -69,11 +69,11 @@ builder.Services.AddCors(options =>
                .AllowAnyHeader();
     });
 });
-var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
-builder.WebHost.ConfigureKestrel(serverOptions =>
-{
-    serverOptions.ListenAnyIP(int.Parse(port));
-});
+//var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+//builder.WebHost.ConfigureKestrel(serverOptions =>
+//{
+//    serverOptions.ListenAnyIP(int.Parse(port));
+//});
 
 
 // Add persistence services
@@ -95,7 +95,7 @@ builder.Services.AddHttpContextAccessor();
 //});
 
 var app = builder.Build();
-app.MapGet("/", () => "Backend is running!");
+//app.MapGet("/", () => "Backend is running!");
 
 //app.UseHttpsRedirection();
 app.Use(async (context, next) =>

@@ -52,7 +52,6 @@ namespace chuyennganh.Api.Controllers
         }
 
 
-        /// ✅ IPN: PayOS gửi callback khi trạng thái đơn hàng thay đổi
         //[HttpPost("ipn")]
         //public async Task<IActionResult> IpnCallback()
         //{
@@ -60,44 +59,67 @@ namespace chuyennganh.Api.Controllers
         //    {
         //        using var reader = new StreamReader(Request.Body);
         //        var body = await reader.ReadToEndAsync();
-
+        //        _logger.LogInformation("📩 IPN PayOS nhận được: {0}", body);
         //        var jsonDoc = JsonDocument.Parse(body);
         //        var root = jsonDoc.RootElement;
 
-        //        var orderId = root.GetProperty("orderCode").GetInt32(); // ✅ Lấy đúng kiểu
-        //        var status = root.GetProperty("status").GetString();
-
-        //        _logger.LogInformation("📩 IPN PayOS nhận được: {0}", body);
-
-        //        OrderStatus? newStatus = status switch
+        //        // Truy cập vào thuộc tính "data" trước
+        //        if (root.TryGetProperty("data", out var dataElement))
         //        {
-        //            "PAID" => OrderStatus.Accepted,
-        //            "CANCEL" => OrderStatus.Canceled,
-        //            _ => null
-        //        };
+        //            if (!dataElement.TryGetProperty("orderCode", out var orderCodeElement) ||
+        //         !orderCodeElement.TryGetInt64(out long orderCode))
+        //            {
+        //                _logger.LogWarning("❌ Thiếu hoặc không hợp lệ 'orderCode' trong IPN.");
+        //                return BadRequest("Thiếu hoặc không hợp lệ 'orderCode'.");
+        //            }
 
-        //        if (newStatus.HasValue)
-        //        {
+        //            int orderId = (int)(orderCode / 1000);
+
+        //            // Kiểm tra và lấy status
+        //            if (!dataElement.TryGetProperty("status", out var statusElement) ||
+        //                string.IsNullOrEmpty(statusElement.GetString()))
+        //            {
+        //                _logger.LogWarning("❌ Thiếu trường 'status' trong IPN.");
+        //                return BadRequest("Thiếu trạng thái.");
+        //            }
+
+        //            var status = statusElement.GetString()?.ToUpper();
+
+        //            // Ánh xạ trạng thái từ PayOS sang OrderStatus hệ thống
+        //            OrderStatus? newStatus = status switch
+        //            {
+        //                "PAID" => OrderStatus.Accepted,
+        //                "CANCEL" => OrderStatus.Canceled,
+        //                _ => null
+        //            };
+
+        //            if (!newStatus.HasValue)
+        //            {
+        //                _logger.LogWarning("❌ Trạng thái không xác định từ PayOS: {0}", status);
+        //                return BadRequest("Trạng thái không hợp lệ.");
+        //            }
+
+        //            // Cập nhật đơn hàng
         //            var success = await _orderRepository.UpdateOrderStatusAsync(orderId, newStatus.Value);
-        //            if (success)
+        //            if (!success)
         //            {
-        //                _logger.LogInformation($"✔️ Đã cập nhật đơn hàng #{orderId} sang trạng thái {newStatus}");
-        //                return Ok();
+        //                _logger.LogWarning($"⚠️ Không tìm thấy hoặc không cập nhật được đơn hàng có ID = {orderId}");
+        //                return NotFound($"Không tìm thấy đơn hàng có ID = {orderId}");
         //            }
-        //            else
-        //            {
-        //                _logger.LogWarning($"⚠️ Không tìm thấy đơn hàng có ID = {orderId}");
-        //            }
+
+        //            _logger.LogInformation($"✔️ Đã cập nhật đơn hàng #{orderId} sang trạng thái {newStatus}");
+        //            return Ok();
         //        }
 
-        //        return BadRequest("❌ Không thể xử lý: trạng thái không xác định.");
+        //        return BadRequest("Thiếu thuộc tính 'data' trong IPN.");
         //    }
         //    catch (Exception ex)
         //    {
-        //        _logger.LogError(ex, "❌ Lỗi khi xử lý IPN từ PayOS");
-        //        return StatusCode(500, "Lỗi hệ thống khi xử lý IPN.");
+        //        _logger.LogError(ex, "❌ Lỗi hệ thống khi xử lý IPN từ PayOS");
+        //        return StatusCode(500, "Lỗi hệ thống.");
         //    }
         //}
+
         [HttpPost("ipn")]
         public async Task<IActionResult> IpnCallback()
         {
@@ -111,36 +133,43 @@ namespace chuyennganh.Api.Controllers
                 var jsonDoc = JsonDocument.Parse(body);
                 var root = jsonDoc.RootElement;
 
-                var orderCodeStr = root.GetProperty("orderCode").GetString();
+                // Lấy object "data"
+                if (!root.TryGetProperty("data", out var data))
+                {
+                    _logger.LogWarning("❌ Không có trường 'data' trong IPN.");
+                    return BadRequest("Thiếu trường data.");
+                }
 
+                // Lấy orderCode từ data
+                var orderCodeStr = data.GetProperty("orderCode").GetRawText(); // có thể là number
                 if (!long.TryParse(orderCodeStr, out long orderCode))
                 {
                     _logger.LogWarning("❌ orderCode không hợp lệ: {0}", orderCodeStr);
                     return BadRequest("orderCode không hợp lệ.");
                 }
 
-                int orderId = (int)(orderCode / 1000);
+                int orderId = (int)orderCode;
 
+                // Lấy code (trạng thái thanh toán) từ data
+                var payosCode = data.GetProperty("code").GetString();
 
-                var status = root.GetProperty("status").GetString()?.ToUpper();
-
-                if (string.IsNullOrEmpty(status))
+                if (string.IsNullOrEmpty(payosCode))
                 {
-                    _logger.LogWarning("❌ Thiếu trường 'status' trong IPN.");
+                    _logger.LogWarning("❌ Thiếu trường 'code' trong data.");
                     return BadRequest("Thiếu trạng thái.");
                 }
 
-                // Ánh xạ trạng thái từ PayOS sang OrderStatus hệ thống
-                OrderStatus? newStatus = status switch
+                // Ánh xạ code từ PayOS sang OrderStatus hệ thống
+                OrderStatus? newStatus = payosCode switch
                 {
-                    "PAID" => OrderStatus.Accepted,
-                    "CANCEL" => OrderStatus.Canceled,
+                    "00" => OrderStatus.Accepted,  // Thành công
+                    "07" => OrderStatus.Canceled,  // Thất bại/hủy
                     _ => null
                 };
 
                 if (!newStatus.HasValue)
                 {
-                    _logger.LogWarning("❌ Trạng thái không xác định từ PayOS: {0}", status);
+                    _logger.LogWarning("❌ Trạng thái không xác định từ PayOS: {0}", payosCode);
                     return BadRequest("Trạng thái không hợp lệ.");
                 }
 
@@ -153,7 +182,7 @@ namespace chuyennganh.Api.Controllers
                 }
 
                 _logger.LogInformation($"✔️ Đã cập nhật đơn hàng #{orderId} sang trạng thái {newStatus}");
-                return Ok();
+                return Ok(new { message = "Cập nhật đơn hàng thành công" });
             }
             catch (Exception ex)
             {
@@ -161,6 +190,5 @@ namespace chuyennganh.Api.Controllers
                 return StatusCode(500, "Lỗi hệ thống.");
             }
         }
-
     }
 }

@@ -3,15 +3,35 @@
   "WorkspaceRootPath": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{75561C06-D75E-4FF5-9DC7-E88145DA32C5}|src\\solution_items\\chuyennganh.Api\\chuyennganh.Api.csproj|D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.api\\controllers\\payoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75561C06-D75E-4FF5-9DC7-E88145DA32C5}|src\\solution_items\\chuyennganh.Api\\chuyennganh.Api.csproj|solutionrelative:src\\solution_items\\chuyennganh.api\\controllers\\payoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{123B64BC-C05F-42CF-BC3D-1D561A55D749}|src\\solution_items\\chuyennganh.Domain\\chuyennganh.Domain.csproj|D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.domain\\enumerations\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{123B64BC-C05F-42CF-BC3D-1D561A55D749}|src\\solution_items\\chuyennganh.Domain\\chuyennganh.Domain.csproj|solutionrelative:src\\solution_items\\chuyennganh.domain\\enumerations\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75561C06-D75E-4FF5-9DC7-E88145DA32C5}|src\\solution_items\\chuyennganh.Api\\chuyennganh.Api.csproj|D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{75561C06-D75E-4FF5-9DC7-E88145DA32C5}|src\\solution_items\\chuyennganh.Api\\chuyennganh.Api.csproj|solutionrelative:src\\solution_items\\chuyennganh.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{123B64BC-C05F-42CF-BC3D-1D561A55D749}|src\\solution_items\\chuyennganh.Domain\\chuyennganh.Domain.csproj|D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.domain\\services\\payosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{123B64BC-C05F-42CF-BC3D-1D561A55D749}|src\\solution_items\\chuyennganh.Domain\\chuyennganh.Domain.csproj|solutionrelative:src\\solution_items\\chuyennganh.domain\\services\\payosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75561C06-D75E-4FF5-9DC7-E88145DA32C5}|src\\solution_items\\chuyennganh.Api\\chuyennganh.Api.csproj|D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75561C06-D75E-4FF5-9DC7-E88145DA32C5}|src\\solution_items\\chuyennganh.Api\\chuyennganh.Api.csproj|solutionrelative:src\\solution_items\\chuyennganh.api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{75561C06-D75E-4FF5-9DC7-E88145DA32C5}|src\\solution_items\\chuyennganh.Api\\chuyennganh.Api.csproj|D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75561C06-D75E-4FF5-9DC7-E88145DA32C5}|src\\solution_items\\chuyennganh.Api\\chuyennganh.Api.csproj|solutionrelative:src\\solution_items\\chuyennganh.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75561C06-D75E-4FF5-9DC7-E88145DA32C5}|src\\solution_items\\chuyennganh.Api\\chuyennganh.Api.csproj|d:\\final_kltn_2025\\backend\\.net_c#\\shop_vantoi\\src\\solution_items\\chuyennganh.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{75561C06-D75E-4FF5-9DC7-E88145DA32C5}|src\\solution_items\\chuyennganh.Api\\chuyennganh.Api.csproj|D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{75561C06-D75E-4FF5-9DC7-E88145DA32C5}|src\\solution_items\\chuyennganh.Api\\chuyennganh.Api.csproj|solutionrelative:src\\solution_items\\chuyennganh.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{748AA982-AB00-464D-BFEA-EE5DA312DBF7}|src\\solution_items\\chuyennganh.Application\\chuyennganh.Application.csproj|d:\\final_kltn_2025\\backend\\.net_c#\\shop_vantoi\\src\\solution_items\\chuyennganh.application\\app\\productapp\\handler\\recommendsizehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{748AA982-AB00-464D-BFEA-EE5DA312DBF7}|src\\solution_items\\chuyennganh.Application\\chuyennganh.Application.csproj|D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.application\\app\\productapp\\handler\\recommendsizehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{748AA982-AB00-464D-BFEA-EE5DA312DBF7}|src\\solution_items\\chuyennganh.Application\\chuyennganh.Application.csproj|solutionrelative:src\\solution_items\\chuyennganh.application\\app\\productapp\\handler\\recommendsizehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -51,28 +71,12 @@
       "RelativeMoniker": "D:0:0:{123B64BC-C05F-42CF-BC3D-1D561A55D749}|src\\solution_items\\chuyennganh.Domain\\chuyennganh.Domain.csproj|solutionrelative:src\\solution_items\\chuyennganh.domain\\dtos\\payosrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75561C06-D75E-4FF5-9DC7-E88145DA32C5}|src\\solution_items\\chuyennganh.Api\\chuyennganh.Api.csproj|D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.api\\controllers\\payoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75561C06-D75E-4FF5-9DC7-E88145DA32C5}|src\\solution_items\\chuyennganh.Api\\chuyennganh.Api.csproj|solutionrelative:src\\solution_items\\chuyennganh.api\\controllers\\payoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{123B64BC-C05F-42CF-BC3D-1D561A55D749}|src\\solution_items\\chuyennganh.Domain\\chuyennganh.Domain.csproj|D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.domain\\services\\payosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{123B64BC-C05F-42CF-BC3D-1D561A55D749}|src\\solution_items\\chuyennganh.Domain\\chuyennganh.Domain.csproj|solutionrelative:src\\solution_items\\chuyennganh.domain\\services\\payosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{748AA982-AB00-464D-BFEA-EE5DA312DBF7}|src\\solution_items\\chuyennganh.Application\\chuyennganh.Application.csproj|D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.application\\app\\orderapp\\handler\\createorderrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{748AA982-AB00-464D-BFEA-EE5DA312DBF7}|src\\solution_items\\chuyennganh.Application\\chuyennganh.Application.csproj|solutionrelative:src\\solution_items\\chuyennganh.application\\app\\orderapp\\handler\\createorderrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{748AA982-AB00-464D-BFEA-EE5DA312DBF7}|src\\solution_items\\chuyennganh.Application\\chuyennganh.Application.csproj|D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.application\\app\\paymenttransaction\\handler\\createpaymenttransactionrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{748AA982-AB00-464D-BFEA-EE5DA312DBF7}|src\\solution_items\\chuyennganh.Application\\chuyennganh.Application.csproj|solutionrelative:src\\solution_items\\chuyennganh.application\\app\\paymenttransaction\\handler\\createpaymenttransactionrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{123B64BC-C05F-42CF-BC3D-1D561A55D749}|src\\solution_items\\chuyennganh.Domain\\chuyennganh.Domain.csproj|D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.domain\\enumerations\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{123B64BC-C05F-42CF-BC3D-1D561A55D749}|src\\solution_items\\chuyennganh.Domain\\chuyennganh.Domain.csproj|solutionrelative:src\\solution_items\\chuyennganh.domain\\enumerations\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75561C06-D75E-4FF5-9DC7-E88145DA32C5}|src\\solution_items\\chuyennganh.Api\\chuyennganh.Api.csproj|D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{75561C06-D75E-4FF5-9DC7-E88145DA32C5}|src\\solution_items\\chuyennganh.Api\\chuyennganh.Api.csproj|solutionrelative:src\\solution_items\\chuyennganh.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75561C06-D75E-4FF5-9DC7-E88145DA32C5}|src\\solution_items\\chuyennganh.Api\\chuyennganh.Api.csproj|D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.api\\controllers\\productreviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -121,10 +125,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{748AA982-AB00-464D-BFEA-EE5DA312DBF7}|src\\solution_items\\chuyennganh.Application\\chuyennganh.Application.csproj|D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.application\\chatbot\\chatrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{748AA982-AB00-464D-BFEA-EE5DA312DBF7}|src\\solution_items\\chuyennganh.Application\\chuyennganh.Application.csproj|solutionrelative:src\\solution_items\\chuyennganh.application\\chatbot\\chatrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75561C06-D75E-4FF5-9DC7-E88145DA32C5}|src\\solution_items\\chuyennganh.Api\\chuyennganh.Api.csproj|D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75561C06-D75E-4FF5-9DC7-E88145DA32C5}|src\\solution_items\\chuyennganh.Api\\chuyennganh.Api.csproj|solutionrelative:src\\solution_items\\chuyennganh.api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75561C06-D75E-4FF5-9DC7-E88145DA32C5}|src\\solution_items\\chuyennganh.Api\\chuyennganh.Api.csproj|D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.api\\endpoints\\paymentendpointsmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -1806,7 +1806,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -1817,17 +1817,12 @@
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\Dockerfile",
-              "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Api\\Dockerfile",
-              "ToolTip": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\Dockerfile",
-              "RelativeToolTip": "src\\solution_items\\chuyennganh.Api\\Dockerfile",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-08-27T11:13:16.884Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
               "$type": "Bookmark",
@@ -1836,39 +1831,54 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "RecommendSizeHandler.cs",
-              "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Application\\App\\ProductApp\\Handler\\RecommendSizeHandler.cs",
-              "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Application\\App\\ProductApp\\Handler\\RecommendSizeHandler.cs",
-              "ToolTip": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Application\\App\\ProductApp\\Handler\\RecommendSizeHandler.cs",
-              "RelativeToolTip": "src\\solution_items\\chuyennganh.Application\\App\\ProductApp\\Handler\\RecommendSizeHandler.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAAAEQAAAAAAAAA",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Api\\appsettings.json",
+              "ToolTip": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\appsettings.json",
+              "RelativeToolTip": "src\\solution_items\\chuyennganh.Api\\appsettings.json",
+              "ViewState": "AQIAABQAAAAAAAAAAAAkwDIAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-23T02:03:18.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Api\\Controllers\\PaymentController.cs",
+              "ToolTip": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "src\\solution_items\\chuyennganh.Api\\Controllers\\PaymentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T09:22:02.684Z",
+              "WhenOpened": "2025-07-01T08:50:47.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PayosController.cs",
+              "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\Controllers\\PayosController.cs",
+              "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Api\\Controllers\\PayosController.cs",
+              "ToolTip": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\Controllers\\PayosController.cs",
+              "RelativeToolTip": "src\\solution_items\\chuyennganh.Api\\Controllers\\PayosController.cs",
+              "ViewState": "AQIAAJwAAAAAAAAAAAAwwKEAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:33:57.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Api\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "src\\solution_items\\chuyennganh.Api\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAgwDwAAABXAAAA",
+              "Title": "PayosService.cs",
+              "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Domain\\Services\\PayosService.cs",
+              "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Domain\\Services\\PayosService.cs",
+              "ToolTip": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Domain\\Services\\PayosService.cs",
+              "RelativeToolTip": "src\\solution_items\\chuyennganh.Domain\\Services\\PayosService.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAswFIAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T07:07:21.822Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductEndpointsMap.cs",
-              "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\Endpoints\\ProductEndpointsMap.cs",
-              "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Api\\Endpoints\\ProductEndpointsMap.cs",
-              "ToolTip": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\Endpoints\\ProductEndpointsMap.cs",
-              "RelativeToolTip": "src\\solution_items\\chuyennganh.Api\\Endpoints\\ProductEndpointsMap.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T07:07:56.368Z"
+              "WhenOpened": "2025-06-05T11:31:28.211Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1884,20 +1894,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Domain\\Enumerations\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Domain\\Enumerations\\OrderStatus.cs",
+              "ToolTip": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Domain\\Enumerations\\OrderStatus.cs",
+              "RelativeToolTip": "src\\solution_items\\chuyennganh.Domain\\Enumerations\\OrderStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T07:32:08.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\Program.cs",
               "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Api\\Program.cs",
               "ToolTip": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\Program.cs",
               "RelativeToolTip": "src\\solution_items\\chuyennganh.Api\\Program.cs",
-              "ViewState": "AQIAAGMAAAAAAAAAAAAAAEwAAAAAAAAA",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAqwEwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T10:12:53.823Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T10:12:53.823Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
+              "Title": "ProductEndpointsMap.cs",
+              "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\Endpoints\\ProductEndpointsMap.cs",
+              "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Api\\Endpoints\\ProductEndpointsMap.cs",
+              "ToolTip": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\Endpoints\\ProductEndpointsMap.cs",
+              "RelativeToolTip": "src\\solution_items\\chuyennganh.Api\\Endpoints\\ProductEndpointsMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T07:07:56.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Api\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "src\\solution_items\\chuyennganh.Api\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAgwDwAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T07:07:21.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RecommendSizeHandler.cs",
+              "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Application\\App\\ProductApp\\Handler\\RecommendSizeHandler.cs",
+              "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Application\\App\\ProductApp\\Handler\\RecommendSizeHandler.cs",
+              "ToolTip": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Application\\App\\ProductApp\\Handler\\RecommendSizeHandler.cs",
+              "RelativeToolTip": "src\\solution_items\\chuyennganh.Application\\App\\ProductApp\\Handler\\RecommendSizeHandler.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAAEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T09:22:02.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\Dockerfile",
+              "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Api\\Dockerfile",
+              "ToolTip": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\Dockerfile",
+              "RelativeToolTip": "src\\solution_items\\chuyennganh.Api\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-27T11:13:16.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "RecommendSizeRequest.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Application\\App\\ProductApp\\Command\\RecommendSizeRequest.cs",
               "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Application\\App\\ProductApp\\Command\\RecommendSizeRequest.cs",
@@ -1909,7 +1979,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Application\\Repositories\\ProductRepo\\IProductRepository.cs",
               "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Application\\Repositories\\ProductRepo\\IProductRepository.cs",
@@ -1921,7 +1991,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "OrderItemDTOPayos.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Domain\\DTOs\\OrderItemDTOPayos.cs",
               "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Domain\\DTOs\\OrderItemDTOPayos.cs",
@@ -1945,19 +2015,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "PayosService.cs",
-              "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Domain\\Services\\PayosService.cs",
-              "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Domain\\Services\\PayosService.cs",
-              "ToolTip": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Domain\\Services\\PayosService.cs",
-              "RelativeToolTip": "src\\solution_items\\chuyennganh.Domain\\Services\\PayosService.cs",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAcwGkAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T11:31:28.211Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Infrasture\\Repositories\\ProductRepo\\ProductRepository.cs",
               "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Infrasture\\Repositories\\ProductRepo\\ProductRepository.cs",
@@ -1969,7 +2027,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "CreateOrderRequestHandler.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Application\\App\\OrderApp\\Handler\\CreateOrderRequestHandler.cs",
               "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Application\\App\\OrderApp\\Handler\\CreateOrderRequestHandler.cs",
@@ -1981,7 +2039,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "PayOSRequestDto.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Domain\\DTOs\\PayOSRequestDto.cs",
               "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Domain\\DTOs\\PayOSRequestDto.cs",
@@ -1993,7 +2051,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "ProductSize.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Domain\\Entities\\ProductSize.cs",
               "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Domain\\Entities\\ProductSize.cs",
@@ -2005,7 +2063,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Domain\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Domain\\Entities\\Product.cs",
@@ -2017,19 +2075,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "PayosController.cs",
-              "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\Controllers\\PayosController.cs",
-              "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Api\\Controllers\\PayosController.cs",
-              "ToolTip": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\Controllers\\PayosController.cs",
-              "RelativeToolTip": "src\\solution_items\\chuyennganh.Api\\Controllers\\PayosController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA+wB0AAABRAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T11:33:57.393Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "CreatePaymentTransactionRequestHandler.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Application\\App\\PaymentTransaction\\Handler\\CreatePaymentTransactionRequestHandler.cs",
               "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Application\\App\\PaymentTransaction\\Handler\\CreatePaymentTransactionRequestHandler.cs",
@@ -2041,31 +2087,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "OrderStatus.cs",
-              "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Domain\\Enumerations\\OrderStatus.cs",
-              "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Domain\\Enumerations\\OrderStatus.cs",
-              "ToolTip": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Domain\\Enumerations\\OrderStatus.cs",
-              "RelativeToolTip": "src\\solution_items\\chuyennganh.Domain\\Enumerations\\OrderStatus.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T07:32:08.133Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Api\\appsettings.json",
-              "ToolTip": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\appsettings.json",
-              "RelativeToolTip": "src\\solution_items\\chuyennganh.Api\\appsettings.json",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAkwDUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-23T02:03:18.929Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "CreateProductRVRequestHandler.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Application\\App\\ProdcutReview\\Handler\\CreateProductRVRequestHandler.cs",
               "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Application\\App\\ProdcutReview\\Handler\\CreateProductRVRequestHandler.cs",
@@ -2077,7 +2099,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "IProductReviewRepository.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Application\\Repositories\\IProductReviewRepository.cs",
               "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Application\\Repositories\\IProductReviewRepository.cs",
@@ -2089,7 +2111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ProductReviewController.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\Controllers\\ProductReviewController.cs",
               "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Api\\Controllers\\ProductReviewController.cs",
@@ -2101,7 +2123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ProductReviewRepository.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Infrasture\\Repositories\\ProductReviewRepository.cs",
               "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Infrasture\\Repositories\\ProductReviewRepository.cs",
@@ -2113,7 +2135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "ProductSizeRepository.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Infrasture\\Repositories\\ProductRepo\\ProductSizeRepository.cs",
               "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Infrasture\\Repositories\\ProductRepo\\ProductSizeRepository.cs",
@@ -2125,7 +2147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "EmailService.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Infrasture\\Repositories\\EmailService.cs",
               "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Infrasture\\Repositories\\EmailService.cs",
@@ -2137,7 +2159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Infrasture\\Repositories\\GenericRepository.cs",
               "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Infrasture\\Repositories\\GenericRepository.cs",
@@ -2149,7 +2171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "PaymentTransactionRepository.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Infrasture\\Repositories\\PaymentTransactionRepository.cs",
               "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Infrasture\\Repositories\\PaymentTransactionRepository.cs",
@@ -2161,7 +2183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "GetProductDeatilRequestHandler.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Application\\App\\ProductApp\\Query\\Handlers\\GetProductDeatilRequestHandler.cs",
               "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Application\\App\\ProductApp\\Query\\Handlers\\GetProductDeatilRequestHandler.cs",
@@ -2173,7 +2195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "OrderController.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Api\\Controllers\\OrderController.cs",
@@ -2185,7 +2207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "ChatbotController.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\Controllers\\ChatbotController.cs",
               "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Api\\Controllers\\ChatbotController.cs",
@@ -2197,7 +2219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "ChatRequest.cs",
               "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Application\\ChatBot\\ChatRequest.cs",
               "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Application\\ChatBot\\ChatRequest.cs",
@@ -2230,18 +2252,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-01T08:50:12.775Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "PaymentController.cs",
-              "DocumentMoniker": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\Controllers\\PaymentController.cs",
-              "RelativeDocumentMoniker": "src\\solution_items\\chuyennganh.Api\\Controllers\\PaymentController.cs",
-              "ToolTip": "D:\\Final_KLTN_2025\\BackEnd\\.Net_C#\\Shop_VANTOI\\src\\solution_items\\chuyennganh.Api\\Controllers\\PaymentController.cs",
-              "RelativeToolTip": "src\\solution_items\\chuyennganh.Api\\Controllers\\PaymentController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T08:50:47.532Z"
             },
             {
               "$type": "Document",
@@ -6758,7 +6768,8 @@
               "RelativeToolTip": "src\\solution items\\chuyennganh.Application\\App\\CustomersApp\\Customers\\Handler\\ResendOTPRequestHandler.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAEwAsAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T07:27:17.764Z"
+              "WhenOpened": "2024-11-18T07:27:17.764Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
